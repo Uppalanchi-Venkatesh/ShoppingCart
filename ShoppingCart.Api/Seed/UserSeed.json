@@ -1,0 +1,200 @@
+[
+  {
+    "Name": "Admin",
+    "UserName": "Admin",
+    "Gender": "Male",
+    "DateOfBirth": "1996-04-17",
+    "Email": "admin@mail.com",
+    "PhoneNumber": "+919844288854",
+    "LastActive": "2021-06-01"
+  },
+  {
+    "Name": "Test User",
+    "UserName": "test_user",
+    "Gender": "Male",
+    "DateOfBirth": "1996-04-17",
+    "Email": "testuser@mail.com",
+    "PhoneNumber": "+919876543210",
+    "LastActive": "2021-06-01"
+  },
+  {
+    "Name": "Roronoa Zoro",
+    "UserName": "Zoro",
+    "Gender": "Male",
+    "DateOfBirth": "1982-03-11",
+    "Email": "zoro@mail.com",
+    "PhoneNumber": "+918046402674",
+    "LastActive": "2021-08-16"
+  },
+  {
+    "Name": "Monkey D. Luffy",
+    "UserName": "Luffy",
+    "Gender": "Male",
+    "DateOfBirth": "1992-02-29",
+    "Email": "luffy@mail.com",
+    "PhoneNumber": "+919011627143",
+    "LastActive": "2021-04-22"
+  },
+  {
+    "Name": "Natsu Dragneel",
+    "UserName": "Natsu",
+    "Gender": "Male",
+    "DateOfBirth": "1991-08-23",
+    "Email": "natsu@mail.com",
+    "PhoneNumber": "+918635624870",
+    "LastActive": "2021-07-25"
+  },
+  {
+    "Name": "Izuku Midoriya",
+    "UserName": "Izuku",
+    "Gender": "Male",
+    "DateOfBirth": "1987-01-15",
+    "Email": "izuku@mail.com",
+    "PhoneNumber": "+918725544775",
+    "LastActive": "2021-12-09"
+  },
+  {
+    "Name": "Bailey Stephens",
+    "UserName": "Bailey",
+    "Gender": "Male",
+    "DateOfBirth": "1981-05-14",
+    "Email": "bailey@mail.com",
+    "PhoneNumber": "+918678019695",
+    "LastActive": "2021-02-02"
+  },
+  {
+    "Name": "Summers Wong",
+    "UserName": "Summers",
+    "Gender": "Male",
+    "DateOfBirth": "1986-09-21",
+    "Email": "summers@mail.com",
+    "PhoneNumber": "+919496319034",
+    "LastActive": "2021-05-13"
+  },
+  {
+    "Name": "Noble Figueroa",
+    "UserName": "Noble",
+    "Gender": "Male",
+    "DateOfBirth": "1989-05-22",
+    "Email": "noble@mail.com",
+    "PhoneNumber": "+918489132723",
+    "LastActive": "2021-05-21"
+  },
+  {
+    "Name": "Reed Cortez",
+    "UserName": "Reed",
+    "Gender": "Male",
+    "DateOfBirth": "1986-08-10",
+    "Email": "reed@mail.com",
+    "PhoneNumber": "+919951780304",
+    "LastActive": "2021-03-02"
+  },
+  {
+    "Name": "Thornton Roth",
+    "UserName": "Thornton",
+    "Gender": "Male",
+    "DateOfBirth": "1995-05-15",
+    "Email": "thornton@mail.com",
+    "PhoneNumber": "+918462786675",
+    "LastActive": "2021-06-12"
+  },
+  {
+    "Name": "Frazier Schneider",
+    "UserName": "Frazier",
+    "Gender": "Male",
+    "DateOfBirth": "1989-04-07",
+    "Email": "frazier@mail.com",
+    "PhoneNumber": "+918144602417",
+    "LastActive": "2021-09-03"
+  },
+  {
+    "Name": "Peterson Christian",
+    "UserName": "Peterson",
+    "Gender": "Male",
+    "DateOfBirth": "1988-08-26",
+    "Email": "peterson@mail.com",
+    "PhoneNumber": "+919738910343",
+    "LastActive": "2021-07-01"
+  },
+  {
+    "Name": "Powers Lee",
+    "UserName": "Powers",
+    "Gender": "Male",
+    "DateOfBirth": "1987-06-27",
+    "Email": "powers@mail.com",
+    "PhoneNumber": "+918773750335",
+    "LastActive": "2021-11-23"
+  },
+  {
+    "Name": "Woods Peterson",
+    "UserName": "Woods",
+    "Gender": "Male",
+    "DateOfBirth": "1992-08-18",
+    "Email": "woods@mail.com",
+    "PhoneNumber": "+919139179609",
+    "LastActive": "2021-06-05"
+  },
+  {
+    "Name": "Sexton Hayden",
+    "UserName": "Sexton",
+    "Gender": "Male",
+    "DateOfBirth": "1997-01-01",
+    "Email": "sexton@mail.com",
+    "PhoneNumber": "+918817076207",
+    "LastActive": "2021-03-23"
+  },
+  {
+    "Name": "Richard Gamble",
+    "UserName": "Richard",
+    "Gender": "Male",
+    "DateOfBirth": "1982-01-22",
+    "Email": "richard@mail.com",
+    "PhoneNumber": "+918082357603",
+    "LastActive": "2021-03-15"
+  },
+  {
+    "Name": "Bennett Tyson",
+    "UserName": "Bennett",
+    "Gender": "Male",
+    "DateOfBirth": "1995-03-25",
+    "Email": "bennett@mail.com",
+    "PhoneNumber": "+918184482087",
+    "LastActive": "2021-11-08"
+  },
+  {
+    "Name": "Burke Johnston",
+    "UserName": "Burke",
+    "Gender": "Male",
+    "DateOfBirth": "1982-03-29",
+    "Email": "burke@mail.com",
+    "PhoneNumber": "+918060906522",
+    "LastActive": "2021-04-07"
+  },
+  {
+    "Name": "Padilla Padilla",
+    "UserName": "Padilla",
+    "Gender": "Male",
+    "DateOfBirth": "1996-02-29",
+    "Email": "padilla@mail.com",
+    "PhoneNumber": "+919651869917",
+    "LastActive": "2021-04-17"
+  },
+  {
+    "Name": "Boyd Hyde",
+    "UserName": "Boyd",
+    "Gender": "Male",
+    "DateOfBirth": "1980-12-24",
+    "Email": "boyd@mail.com",
+    "PhoneNumber": "+919754185940",
+    "LastActive": "2021-02-19"
+  },
+  {
+    "Name": "Osborn Burke",
+    "UserName": "Osborn",
+    "Gender": "Male",
+    "DateOfBirth": "1997-06-10",
+    "Email": "osborn@mail.com",
+    "PhoneNumber": "+918600002655",
+    "LastActive": "2021-10-18"
+  }
+]
