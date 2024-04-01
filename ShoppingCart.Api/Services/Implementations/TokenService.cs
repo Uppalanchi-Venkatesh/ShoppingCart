@@ -28,14 +28,12 @@ namespace ShoppingCart.Api.Services.Implementations
         {
             var claims = new List<Claim>
             {
-                new(JwtRegisteredClaimNames.NameId,user.Id.ToString()),
-                new(JwtRegisteredClaimNames.UniqueName,user.UserName)
+                new(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
+                new(JwtRegisteredClaimNames.UniqueName, user.UserName)
             };
             var roles = await _userManager.GetRolesAsync(user);
 
-            var expireDate = string.IsNullOrEmpty(existingToken)
-                ? DateTime.Now.AddDays(1)
-                : GetExpireDate(existingToken);
+            var expireDate = string.IsNullOrEmpty(existingToken) ? DateTime.Now.AddDays(1) : GetExpireDate(existingToken);
 
             claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
@@ -52,7 +50,7 @@ namespace ShoppingCart.Api.Services.Implementations
             return tokenHandler.WriteToken(token);
         }
 
-        private DateTime GetExpireDate(string token)
+        private static DateTime GetExpireDate(string token)
         {
             var tokenHandler = new JwtSecurityTokenHandler().ReadJwtToken(token);
             return tokenHandler.ValidTo;

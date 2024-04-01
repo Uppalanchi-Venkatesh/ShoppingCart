@@ -147,8 +147,6 @@ namespace ShoppingCart.Api.Repositories.Implementations
 
         private async Task<Order> CreateOrder(int userId, OrderRequestDto orderRequest)
         {
-            if (orderRequest.PayOption != Constants.ShoppingCartWallet) return null;
-
             if (orderRequest.Items == null || !orderRequest.Items.Any() ||
                 orderRequest.Items.GroupBy(i => i.StoreItemId).Any(g => g.Count() > 1)
                 || orderRequest.Items.Any(i => i.ItemQuantity <= 0))
@@ -298,14 +296,6 @@ namespace ShoppingCart.Api.Repositories.Implementations
                 return await AddToCart(userId, storeItemId);
 
             var userLocation = await GetUserLocation(userId);
-            storeItemId = await DataContext.StoreItems
-                .Where(si => si.ProductId == productId && si.Available > 0)
-                .Select(si => si.Id)
-                .FirstOrDefaultAsync();
-
-            if (storeItemId != 0)
-                return await AddToCart(userId, storeItemId);
-
             storeItemId = await DataContext.StoreItems
                 .Where(si => si.ProductId == productId && si.Available > 0)
                 .Select(si => si.Id)

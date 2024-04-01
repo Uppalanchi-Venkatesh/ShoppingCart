@@ -53,7 +53,8 @@ namespace ShoppingCart.Api.Repositories.Implementations
 
         public async Task<UserInfoDto> GetUserInfo(string userName)
         {
-            var user = await DataContext.Users.Where(u => u.UserName == userName.ToLower())
+            var user = await DataContext.Users
+                .Where(u => u.UserName == userName.ToLower())
                 .ProjectTo<UserInfoDto>(Mapper.ConfigurationProvider).FirstOrDefaultAsync();
 
             if (user == null)

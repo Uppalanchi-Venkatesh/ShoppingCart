@@ -50,7 +50,6 @@ namespace ShoppingCart.Api.DTOs
 
     public class OrderRequestDto
     {
-        public string PayOption { get; set; }
         public double TotalAmount { get; set; }
         public int StoreId { get; set; }
         public List<OrderRequestItem> Items { get; set; }

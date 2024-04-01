@@ -16,6 +16,8 @@ namespace ShoppingCart.Api.Helpers
 
             CreateMap<User, UserProfileDto>().ReverseMap();
 
+            CreateMap<User, UserInfoDto>();
+
             CreateMap<SearchContext, SearchContextDto>();
 
             CreateMap<Product, ProductDetailDto>();
@@ -45,8 +47,7 @@ namespace ShoppingCart.Api.Helpers
 
             #region SeedData Entity Mapping
 
-            CreateMap<ProductSeed, Product>()
-                .ForMember(dest => dest.Category, opt => opt.Ignore());
+            CreateMap<ProductSeed, Product>();
 
             #endregion
         }
